@@ -1,0 +1,63 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+body {
+    height:100%;
+    font-weight: normal;
+  }
+
+.homepage{
+    background-image: url("./images/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 200px;
+    margin: 0;
+}
+
+.homepage h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.btn-sm{
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footerGrid{
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: repeat(auto-fit, 250px);
+   grid-gap: 10px;
+   justify-content: space-evenly;
+   padding: 50px; 
+}
+
+.footerGrid h4{
+    font-family: "Times New Roman", Times, serif;
+}
+.footerGrid p{
+    color: #808080;
+}
+
+.copyright{
+    text-align: center;
+    padding: 15px;
+}
+.soMe{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, 25px);
+}
