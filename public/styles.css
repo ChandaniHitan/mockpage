@@ -1,11 +1,16 @@
 html {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Times New Roman", Times, serif;
   }
 
 body {
     height:100%;
     font-weight: normal;
   }
+
+/* navbar */
+
+
+/* homepage */
 
 .homepage{
     background-image: url("./images/bg3.jpg");
@@ -29,6 +34,8 @@ body {
     font-size: 10px;
     line-height: 1.5;
 }
+
+/* footer */
 
 .footer{
     background-color: black;
@@ -61,3 +68,185 @@ body {
     grid-auto-flow: column;
     grid-template-columns: repeat(auto-fit, 25px);
 }
+
+/* Foods */
+
+.aboutFoods{
+    text-align: center;
+    padding: 50px;
+    background-color: #F8F9FA;
+}
+
+.aboutFoods h1{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.aboutFoods p{
+    color: #808080;
+}
+
+.wrapper{
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.foodDescription{
+    padding: 25px;
+}
+
+.foodDescription h6{
+    color:#FF7A5C;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.foodDescription h4{
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Restaurant */
+
+.restaurantDescription{
+    padding: 100px;
+    padding-top: 150px;
+}
+
+.restaurantDescription h3{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.restaurantDescription p{
+    color:#808080;
+}
+.collage img{
+max-width: 100%;
+}
+
+/* About Chefs */
+
+.chefBio{
+    padding: 100px;
+}
+
+.chefBio h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.chefWrapper{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 40px; 
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-gap: 30px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.chefWrapper h6{
+    color: #B3B3B3;
+}
+.chefWrapper p{
+    color: #7F7F7F;
+}
+
+.chefWrapper img{
+    max-width: 150PX;
+    max-height: 150px;
+    padding-bottom: 25px;
+}
+
+.chefSoMe{
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 25px;
+    padding-left: 60px;
+    grid-template-columns: repeat(auto-fit, 50px);
+    justify-content: inherit;
+}
+
+/* Menu */
+
+.menu{
+    background-color: #F8F9FA;
+    padding: 90px;
+}
+
+.menu h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.menu p{
+    text-align: center;
+    color: #868686;
+    padding-top: 20px;
+}
+
+.menuSelect{
+    padding: 50px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 120px);
+    justify-content: center;
+    font-weight: bold;
+}
+
+.menuWrapper{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 40px; 
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-gap: 30px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.menuWrapper h5{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.menuWrapper p{
+    color: #868686;
+}
+.menuWrapper img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.menuWrapper{
+    border-bottom: 1px dotted;
+}
+
+/* Reservation */
+
+.reservation{
+    padding: 50px;
+}
+
+.reservation h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.reservationWrapper{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: space-evenly;
+    padding: 50px; 
+}
+
+.reservationBox{
+    background-color: #F8F9FA;
+    padding: 50px;
+    -webkit-box-shadow: -2px 3px 6px -1px rgba(102,97,102,1);
+    -moz-box-shadow: -2px 3px 6px -1px rgba(102,97,102,1);
+    box-shadow: -2px 3px 6px -1px rgba(102,97,102,1);
+}
+
+
