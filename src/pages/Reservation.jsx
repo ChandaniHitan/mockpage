@@ -2,7 +2,7 @@ import React from 'react'
 
 function Reservation() {
     return (
-        <div className="reservation">
+        <div className="reservation" id="reserveTable">
             <h1>Reservation</h1>
             <div className="reservationBox">
             <div className="reservationWrapper"> 
@@ -34,7 +34,9 @@ function Reservation() {
                     <input></input>
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-warning reservationBtn">RESERVE NOW</button>
+            <div className="reservationBtn">
+            <button type="button" class="btn btn-outline-warning">RESERVE NOW</button>
+            </div>
             </div>
         </div>
     )
