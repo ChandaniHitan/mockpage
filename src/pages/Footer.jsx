@@ -1,6 +1,8 @@
 import React from 'react'
 
 function Footer() {
+    const date = new Date();
+    const year = date.getFullYear();
     return (
         <div className="footer" id="contactInfo">
             <div className="footerGrid">
@@ -29,7 +31,7 @@ function Footer() {
                     aria-label="Search"></input>
                 </div>
             </div>
-            <p className="copyright">Copyright ©2020 All rights reserved</p>
+            <p className="copyright">Copyright ©{year} All rights reserved</p>
         </div>
     )
 }

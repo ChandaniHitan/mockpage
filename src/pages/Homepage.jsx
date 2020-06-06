@@ -4,7 +4,7 @@ function Homepage() {
     return (
         <div className="homepage">
             <h1>Welcome to meal</h1>
-            <button className="btn btn-lg btn-outline-light" type="button">RESERVE A TABLE</button>
+            <a className="btn btn-lg btn-outline-light" type="button" href="#reserveTable">RESERVE A TABLE</a>
         </div>
     )
 }
